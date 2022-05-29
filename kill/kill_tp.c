@@ -65,6 +65,9 @@ int main(int argc, char **argv) {
     }  
   }
 
+else {
+ kill(atoi(argv[1]),signal);
+}
 
 return 0;
 }
