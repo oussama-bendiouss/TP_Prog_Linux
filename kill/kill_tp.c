@@ -64,6 +64,9 @@ int main(int argc, char **argv) {
     default  : printf("The %c option is not correct, use -h to access the help menu",*p);
     }  
   }
+else {
+ kill(atoi(argv[1]),signal);
+}
 
 else {
  kill(atoi(argv[1]),signal);
