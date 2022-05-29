@@ -68,9 +68,6 @@ else {
  kill(atoi(argv[1]),signal);
 }
 
-else {
- kill(atoi(argv[1]),signal);
-}
 
 return 0;
 }
