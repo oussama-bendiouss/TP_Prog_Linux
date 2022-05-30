@@ -1,12 +1,4 @@
-/*================================================================
-   *   Copyright (C) 2018 . All rights reserved.
-   *   
-   *   File name: myls2.c
-   *   Creator: ghostwu (Wu Hua)
-   *   Date of establishment: January 9, 2018
-   *   Description: ls command (version 1.2)
-   *
-   ================================================================*/
+
   
  #include <stdio.h>
  #include <sys/types.h>
